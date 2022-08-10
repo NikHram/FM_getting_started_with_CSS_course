@@ -241,8 +241,10 @@ footer a:hover {
 
 .project img {
     border-radius: 30px;
-    width: 70%;
+    width: 80%;
     height: fit-content;
+    -webkit-height: fit-content;
+    -moz-height: fit-content;
 }
 
 .first-project img {
@@ -405,11 +407,6 @@ footer a:hover {
         text-align: center !important;
         padding: 10px !important;
         font-size: 18px;
-    }
-
-    .project img {
-        width: 80%;
-        height: fit-content;
     }
 }
 
