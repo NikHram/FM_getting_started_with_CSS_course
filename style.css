@@ -283,6 +283,26 @@ footer a:hover {
     background: linear-gradient(90deg, rgba(10,5,96,1) 0%, rgba(115,11,84,1) 40%, rgba(115,11,84,1) 60%, rgba(10,5,96,1) 100%);
 }
 
+@media only screen and (min-width: 2000px) {
+    .portfolio-container {
+        height: 3000px;
+        padding: 0 300px 0 300px;
+    }
+
+    .introduction-container {
+        height: 1600px;
+        padding: 0 300px 0 300px;
+    }
+
+    p {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+}
+
 @media only screen and (min-width: 950px) {
     nav > ul:first-child {
         flex-direction: row;
