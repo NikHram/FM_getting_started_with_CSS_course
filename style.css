@@ -242,9 +242,7 @@ footer a:hover {
 .project img {
     border-radius: 30px;
     width: 80%;
-    height: fit-content;
-    -webkit-height: fit-content;
-    -moz-height: fit-content;
+    height: auto;
 }
 
 .first-project img {
