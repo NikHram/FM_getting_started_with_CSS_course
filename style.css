@@ -213,6 +213,67 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    gap: 100px;
+}
+
+
+.project {
+    display: flex;
+    color: white;
+}
+
+.project p {
+    font-family: var(--oxygen-mono);
+}
+
+.project h2{
+    font-family: var(--oxygen);
+    font-size: 42px;
+}
+
+.project span {
+    font-size: 300%;
+}
+
+.second-project {
+    flex-direction: row-reverse;
+}
+
+.project img {
+    border-radius: 30px;
+    width: 70%;
+    height: fit-content;
+}
+
+.first-project img {
+    border: 3px solid brown;
+}
+
+.second-project img {
+    border: 3px solid darkorange;
+}
+
+.project div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-description {
+    flex-direction: column;
+}
+
+.second-project .project-description {
+    align-items: flex-end;
+}
+
+.second-project .project-description p {
+    text-align: right;
+    padding: 20px 0 20px 20px;
+}
+
+.first-project .project-description p {
+    padding: 20px 20px 20px 0;
 }
 
 .page-breaker {
@@ -256,6 +317,18 @@ footer a:hover {
     .portfolio-container {
         height: 1500px;
     }
+
+    .project p {
+        font-size: 14px;
+    }
+
+    .project h2 {
+        font-size: 18px;
+    }
+
+    .project img {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 610px) {
@@ -286,7 +359,37 @@ footer a:hover {
     }
 
     .portfolio-container {
-        height: 1220px;
+        height: 2500px;
+    }
+
+    .project {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-description {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .project div {
+        width: 100%;
+    }
+
+    .project h2 {
+        font-size: 28px;
+    }
+
+    .project p {
+        text-align: center !important;
+        padding: 10px !important;
+        font-size: 18px;
+    }
+
+    .project img {
+        width: 80%;
+        height: fit-content;
     }
 }
 
@@ -305,11 +408,11 @@ footer a:hover {
     }
 
     .introduction-container {
-        height: 455px;
+        height: 600px;
     }
 
     .portfolio-container {
-        height: 910px;
+        height: 2200px;
     }
 
     footer h2 {
@@ -327,10 +430,10 @@ footer a:hover {
     }
 
     .introduction-container {
-        height: 350px;
+        height: 650px;
     }
 
     .portfolio-container {
-        height: 700px;
+        height: 1900px;
     }
 }
