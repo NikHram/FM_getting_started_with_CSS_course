@@ -260,8 +260,10 @@ footer a:hover {
 
 @media only screen and (max-width: 610px) {
     .introduction-container h2 {
-        font-size: 28px;
-        width: 230px;
+        font-size: 36px;
+        width: auto;
+        padding: 5px;
+        margin: 10px 0;
     }
 
     .introduction-container p:first-child{
@@ -270,10 +272,17 @@ footer a:hover {
 
     .introduction-container p {
         font-size: 16px;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        text-align: center;
     }
 
     .introduction-container {
         height: 610px;
+        padding: 20px;
+        align-items: center;
+        gap: 5px;
     }
 
     .portfolio-container {
@@ -283,9 +292,8 @@ footer a:hover {
 
 @media only screen and (max-width: 455px) {
     .introduction-container h2 {
-        margin: 10px 0 10px 20px;
+        margin: 10px 0;
         font-size: 22px;
-        width: 200px;
     }
 
     .introduction-container p:first-child{
@@ -298,7 +306,6 @@ footer a:hover {
 
     .introduction-container {
         height: 455px;
-        padding-left: 10px;
     }
 
     .portfolio-container {
